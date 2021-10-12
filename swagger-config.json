@@ -1,0 +1,10 @@
+{
+    "modelPackage": "Client\\Model",
+    "apiPackage": "Client\\Api",
+    "invokerPackage": "ChrisHemmings\\AusPost",
+    "packagePath": ".",
+    "srcBasePath": "src",
+    "composerVendorName": "chrishemmings",
+    "composerProjectName": "auspost",
+    "artifactVersion": "1.0.0"
+}
