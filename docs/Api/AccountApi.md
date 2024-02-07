@@ -4,9 +4,8 @@ All URIs are relative to *https://digitalapi.auspost.com.au/test/shipping/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**accountsAccountNumberGet**](AccountApi.md#accountsAccountNumberGet) | **GET** /accounts/{account_number} | Fetch account information
-[**addressGet**](AccountApi.md#addressGet) | **GET** /address | Validate Suburb
-
+[**accountsAccountNumberGet**](AccountApi.md#accountsaccountnumberget) | **GET** /accounts/{account_number} | Fetch account information
+[**addressGet**](AccountApi.md#addressget) | **GET** /address | Validate Suburb
 
 # **accountsAccountNumberGet**
 > \ChrisHemmings\AusPost\Client\Model\AccountInformation accountsAccountNumberGet($account_number)
@@ -19,18 +18,16 @@ This service retrieves information regarding the requestor’s charge account an
 ```php
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
-
 // Configure HTTP basic authorization: BasicAuth
 $config = ChrisHemmings\AusPost\Configuration::getDefaultConfiguration()
               ->setUsername('YOUR_USERNAME')
               ->setPassword('YOUR_PASSWORD');
-
 // Configure API key authorization: CustomerAccount
 $config = ChrisHemmings\AusPost\Configuration::getDefaultConfiguration()->setApiKey('Account-Number', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 // $config = ChrisHemmings\AusPost\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Account-Number', 'Bearer');
 
-$apiInstance = new ChrisHemmings\AusPost\Api\AccountApi(
+$apiInstance = new ChrisHemmings\AusPost\Client\Api\AccountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -79,18 +76,16 @@ This service validates a suburb, state, and postcode combination for an Australi
 ```php
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
-
 // Configure HTTP basic authorization: BasicAuth
 $config = ChrisHemmings\AusPost\Configuration::getDefaultConfiguration()
               ->setUsername('YOUR_USERNAME')
               ->setPassword('YOUR_PASSWORD');
-
 // Configure API key authorization: CustomerAccount
 $config = ChrisHemmings\AusPost\Configuration::getDefaultConfiguration()->setApiKey('Account-Number', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 // $config = ChrisHemmings\AusPost\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Account-Number', 'Bearer');
 
-$apiInstance = new ChrisHemmings\AusPost\Api\AccountApi(
+$apiInstance = new ChrisHemmings\AusPost\Client\Api\AccountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),

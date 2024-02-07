@@ -11,6 +11,5 @@ Name | Type | Description | Notes
 **to** | [**\ChrisHemmings\AusPost\Client\Model\ShipmentToAddress**](ShipmentToAddress.md) |  | [optional] 
 **items** | [**\ChrisHemmings\AusPost\Client\Model\ShipmentItem[]**](ShipmentItem.md) |  | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
-
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

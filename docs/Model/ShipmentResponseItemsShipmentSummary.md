@@ -11,6 +11,5 @@ Name | Type | Description | Notes
 **tracking_summary** | **map[string,int]** |  | [optional] 
 **number_of_items** | **int** |  | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
-
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

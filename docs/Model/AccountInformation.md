@@ -14,6 +14,5 @@ Name | Type | Description | Notes
 **merchant_location_id** | **string** |  | [optional] 
 **credit_blocked** | **bool** |  | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
-
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
