@@ -17,6 +17,5 @@ Name | Type | Description | Notes
 **features** | [**\ChrisHemmings\AusPost\Client\Model\ItemFeatures**](ItemFeatures.md) |  | [optional] 
 **item_contents** | [**\ChrisHemmings\AusPost\Client\Model\ItemContents[]**](ItemContents.md) |  | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
-
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
